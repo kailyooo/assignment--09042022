@@ -1,0 +1,19 @@
+<html>
+    <body>
+        <h1>Predicting credit card default</h1>
+        <form action ="http://127.0.0.1:2345/" method ='post'>
+            <p>Please input your income</p>
+            <p><input type="number" name="income"></p>
+            <p>Please input your age</p>
+            <p><input type="number" name="age"></p>
+            <p>Please input loan amount</p>
+            <p><input type="number" name="loan"></p>
+            <p><input type="submit" value="Enter"></p>
+        </form>
+        <p>Please note that 1 means default, 0 means will not default</p>
+        <p>Tree: {{result1}}</p>
+        <p>Random Forest: {{result2}}</p>
+        <p>XGBoost: {{result3}}</p>
+    </body>
+
+</html>
