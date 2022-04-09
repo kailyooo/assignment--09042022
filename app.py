@@ -48,7 +48,7 @@ def index():
 
 
 if __name__ == "__main__":
-    app.run(host="127.0.0.1", port=int("2345"))
+    app.run()
 
 
 # In[ ]:
